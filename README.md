@@ -2,7 +2,7 @@
 
 AI/ML-based web application that predicts social media content performance using features like platform, post type, timing, and hashtags, enhanced with real-world business rules for better accuracy.
 
----
+
 
 ## 📌 Problem Statement
 
@@ -14,7 +14,7 @@ Content creators and marketers often struggle to identify:
 
 This project solves that by predicting content performance **before posting**.
 
----
+
 
 ## 🧠 How It Works
 
@@ -27,14 +27,14 @@ This project solves that by predicting content performance **before posting**.
   - Platform encoding  
   - Post type encoding  
 
----
+
 
 ### 2️⃣ Machine Learning Model
 - Algorithm: **Random Forest Classifier**  
 - Handles class imbalance using `class_weight="balanced"`  
 - Accuracy evaluated using train-test split  
 
----
+
 
 ### 3️⃣ Business Intelligence Layer 🔥
 
@@ -44,14 +44,14 @@ Prediction is adjusted using real-world rules:
 - LinkedIn performs better mid-week  
 - Hashtag limits optimized per platform  
 
----
+
 
 ### 4️⃣ Web Application
 - Built using **Flask**  
 - Interactive UI for user input  
 - Real-time prediction with confidence score  
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -62,18 +62,24 @@ Prediction is adjusted using real-world rules:
 - Flask  
 - Joblib  
 
----
+
 
 ## 📂 Project Structure
 ├── app.py # Flask app
+
 ├── feature_engineering.py # Data preprocessing
+
 ├── train_model.py # Model training
+
 ├── data/ # Datasets
+
 ├── model/ # Saved ML models
+
 ├── graphs/ # Visual outputs
 
 
----
+
+
 
 ## ⚙️ How to Run
 
@@ -109,8 +115,11 @@ Performance Distribution
 
 🚀 Future Improvements
 Deploy using Streamlit / AWS
+
 Add real-time API data (Google Trends)
+
 Improve model using deep learning
+
 📸 Application Preview
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/33635b02-3772-4f1c-bd2e-8574129989b9" />
 
